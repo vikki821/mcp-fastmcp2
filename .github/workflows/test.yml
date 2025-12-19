@@ -34,8 +34,8 @@ jobs:
     
     - name: Verify imports
       run: |
-        python -c "from src.server.base_server import create_server; print('✅ Server imports OK')"
-        python -c "from src.client.unified_client import MCPClient; print('✅ Client imports OK')"
+        python -c "from src.server.base_server import create_server; print('Server imports OK')"
+        python -c "from src.client.unified_client import MCPClient; print('Client imports OK')"
     
     - name: Check code syntax
       run: |
